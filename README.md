@@ -5,7 +5,7 @@ MOAI Glowbot is an AI-powered skincare assistant tailored for Gen Z users. Built
 
 ---
 
-## ✨ Features
+## ✨ Features:
 
 - 💬 Conversational AI chatbot for skincare help
 - ✅ Skin Check-In form to collect user preferences
@@ -15,7 +15,7 @@ MOAI Glowbot is an AI-powered skincare assistant tailored for Gen Z users. Built
 
 ---
 
-## 📖 How We Used Authentic Skincare Sources
+## 📖 How We Used Authentic Skincare Sources:
 
 To make MOAI a *credible and safe skincare assistant, only **reliable, peer-reviewed, or medically backed sources* were used when training the chatbot inside Botpress.
 
@@ -44,15 +44,16 @@ To make MOAI a *credible and safe skincare assistant, only **reliable, peer-revi
 <img width="1285" height="886" alt="3" src="https://github.com/user-attachments/assets/3a6f980d-920c-4515-8c60-defc4784e030" />
 <img width="1272" height="803" alt="4" src="https://github.com/user-attachments/assets/92f150d4-10c5-4c63-a891-80cddfb33c2d" />
 
+---
 
-🤖 How to Create a Chatbot like MOAI on Botpress
+🤖 How to Create a Chatbot like MOAI on Botpress:
 
 1. Create an account on Botpress Cloud
 
 
 2. Start a new chatbot project – name it something like MOAI
 
-3. Train with authentic sources:
+3. Train with authentic sources
 
 Go to "Knowledge Bases", add URLs from WHO, AAD, etc.
 
@@ -69,17 +70,9 @@ Get the shareable link or iframe code
 Paste into your chat.html like this:
 
 
-
-
-<iframe 
-  src="https://cdn.botpress.cloud/webchat/v3.1/shareable.html?configUrl=your-config-url.json"
-  width="100%" height="600px" style="border: none;">
-</iframe>
-
-
 ---
 
-🧾 Project Structure
+🧾 Project Structure:
 
 File/Folder	Purpose
 
@@ -94,7 +87,7 @@ script.js	Optional interactivity enhancements
 
 ---
 
-💻 Tech Stack
+💻 Tech Stack:
 
 Frontend: HTML, CSS, JavaScript
 
@@ -107,14 +100,14 @@ Design: Minimal, Gen-Z inspired
 
 ---
 
-📜 License
+📜 License:
 
 MIT License — open-source and free to modify
 
 
 ---
 
-🙌 Credits
+🙌 Credits:
 
 👩‍💻 Developed by: Muanna Hamid
 
