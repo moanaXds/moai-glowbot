@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Skin Check-In – MOAI</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="form-container">
+    <h2>🧴 Skin Check-In</h2>
+    <p>Help MOAI understand your skin before we begin!</p>
+
+    <form onsubmit="startChat(event)">
+      <div class="form-group">
+        <label for="skinType">1. What is your skin type?</label>
+        <select id="skinType" required>
+          <option value="">-- Select --</option>
+          <option value="oily">Oily</option>
+          <option value="dry">Dry</option>
+          <option value="combination">Combination</option>
+          <option value="sensitive">Sensitive</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="skinConcern">2. Your main skin concern:</label>
+        <select id="skinConcern" required>
+          <option value="">-- Select --</option>
+          <option value="acne">Acne</option>
+          <option value="dark spots">Dark Spots</option>
+          <option value="dullness">Dullness</option>
+          <option value="pores">Visible Pores</option>
+        </select>
+      </div>
+
+      <div class="form-group checkbox-group">
+        <label>
+          <input type="checkbox" id="agree" required>
+          I agree to receive skincare tips based on my answers.
+        </label>
+      </div>
+
+      <button type="submit" class="btn">Start Chat with MOAI</button>
+    </form>
+  </div>
+
+  <script>
+    function startChat(event) {
+      event.preventDefault();
+      window.location.href = "chat.html";
+    }
+  </script>
+</body>
+</html>
